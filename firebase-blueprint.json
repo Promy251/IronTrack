@@ -1,0 +1,49 @@
+{
+  "entities": {
+    "UserProfile": {
+      "collection": "users/{userId}/profile",
+      "fields": {
+        "name": { "type": "string" },
+        "heightCm": { "type": "number" },
+        "targetWeight": { "type": "number" },
+        "startingWeight": { "type": "number" },
+        "updatedAt": { "type": "timestamp" }
+      }
+    },
+    "WeightLog": {
+      "collection": "users/{userId}/weight_logs",
+      "fields": {
+        "id": { "type": "string" },
+        "weight": { "type": "number" },
+        "date": { "type": "number" },
+        "notes": { "type": "string" },
+        "updatedAt": { "type": "timestamp" }
+      }
+    },
+    "WorkoutSession": {
+      "collection": "users/{userId}/sessions",
+      "fields": {
+        "id": { "type": "string" },
+        "date": { "type": "number" },
+        "routineName": { "type": "string" },
+        "durationSeconds": { "type": "number" },
+        "notes": { "type": "string" },
+        "updatedAt": { "type": "timestamp" }
+      }
+    },
+    "WorkoutSet": {
+      "collection": "users/{userId}/sets",
+      "fields": {
+        "id": { "type": "string" },
+        "sessionId": { "type": "string" },
+        "exerciseId": { "type": "string" },
+        "exerciseName": { "type": "string" },
+        "weight": { "type": "number" },
+        "reps": { "type": "number" },
+        "setNumber": { "type": "number" },
+        "isWarmup": { "type": "boolean" },
+        "updatedAt": { "type": "timestamp" }
+      }
+    }
+  }
+}

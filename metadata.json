@@ -1,0 +1,6 @@
+{
+  "name": "IronTrack",
+  "description": "Gym workout tracker for logging exercises, sets, reps, and weights, celebrating personal records (PRs), viewing workout growth history, streaks, and tracking body weight progress towards goals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
