@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="irontrack-demo-full.gif" width="260" alt="IronTrack demo"/>
+</p>
+
 # IronTrack 🏋️‍♂️
 
 A modern, privacy-first gym and strength workout tracker for Android, built with **Jetpack Compose**, **Material 3**, **Room**, and **Firebase**.
